@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"><a class="navbar-brand" href="#">Logo Marca Aqui</a></div>
+  <form formGroup="form" class="form-inline paddingRight">
+    <div class="form-group mb-2 form-group">
+      <label for="inputEmail" class="sr-only">Email</label>
+      <input type="text" formControlName="email" class="form-control fontSmall" id="inputEmail" placeholder="E-mail">
+    </div>
+    <div class="form-group mx-sm-3 mb-2 form-group">
+      <label for="inputPassword2" class="sr-only">Password</label>
+      <input type="password" formControlName="password" class="form-control fontSmall" id="inputPassword" placeholder="Password">
+    </div>
+    <button type="submit" [disabled]="form.invalid" class="btn btn-primary mb-2 fontSmall">Confirm</button>
+  </form>
+  <!--
+  <a class="nav-link active" href="#"> <mat-icon>account_circle</mat-icon> </a>
+  -->
+</nav>

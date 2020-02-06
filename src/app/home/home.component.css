@@ -1,0 +1,8 @@
+::ng-deep .mat-tab-labels {
+  padding-left: 100px;
+}
+
+.conteudo {
+  text-align: center;
+  padding-top: 50px;
+}
